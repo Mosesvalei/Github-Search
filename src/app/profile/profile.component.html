@@ -28,3 +28,54 @@
   </div>
 </nav>
 
+<!--/.nav-collapse -->
+
+
+<!-- CONTENT SECTION -->
+
+<!-- Profile And Location On Panel -->
+<div *ngIf="profile">
+  <div style="margin-top: 10%;" class="panel panel-default">
+
+    <div class="panel-heading">
+        <h1>{{profile.login}}</h1>
+      <span *ngIf="">Works at {{profile.company}}</span> {{profile.location}}
+    </div>
+<!-- Collapse Profile And Location On Panel -->
+
+
+<!--following, public gist, Followers, Following -->
+    <div class="panel-body">
+
+      <div class="row">
+        <div class="col-md-4">
+          <img src="{{profile.avatar_url}}" class="img-thumbnail github-avatar" alt="Profile Image">
+        </div>
+        <div class="col-md-8">
+          <div class="start">
+              <span class="label label-default">{{profile.public_repos}} Public Repos</span>
+              <span class="label label-primary">{{profile.public_gist}} Public Gist</span>
+              <span class="label label-success">{{profile.followers}} Followers</span>
+              <span class="label label-info">{{profile.following}} Following</span>
+              <br>
+
+          <!-- Content With User-info -->
+
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Username:</strong> {{profile.login}}</li>
+                <li class="list-group-item"><strong>Location:</strong> {{profile.location}}</li>
+                <li class="list-group-item"><strong>Email:</strong> {{profile.email}}</li>
+                <li class="list-group-item"><strong>Bio:</strong> {{profile.bio}}</li>
+                <li class="list-group-item"><strong>Member Since:</strong> {{profile.created_at}}</li>
+            </ul>
+
+          <!-- Collapse Content With User-info -->
+
+          </div>
+        </div>
+
+<!--Collapse following, public gist, Followers, Following -->
+
+
+
+
