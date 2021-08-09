@@ -29,7 +29,7 @@ https://github.com/Mosesvalei/Github-Search.git
 4. ng serve
 
 ## Live Link
-[GithubApiSearch]{https://mosesvalei.github.io/Github-Search/}
+[GithubApiSearch](https://mosesvalei.github.io/Github-Search/)
 
 
 
