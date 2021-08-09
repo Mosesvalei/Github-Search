@@ -26,7 +26,7 @@ https://github.com/Mosesvalei/Github-Search.git
   code . or atom . (depending on your favourite text editor.)
   ```
 3. `cd` to Github-Search folder.
-4. ng serve 
+4. ng serve
 
 
 
