@@ -28,6 +28,10 @@ https://github.com/Mosesvalei/Github-Search.git
 3. `cd` to Github-Search folder.
 4. ng serve
 
+## Live Link
+[GithubApiSearch]{https://mosesvalei.github.io/Github-Search/}
+
+
 
 
 ## BDD
