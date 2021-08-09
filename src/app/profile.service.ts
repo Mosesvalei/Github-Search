@@ -9,8 +9,8 @@ import { environment } from '../environments/environment';
 export class ProfileService {
 
   private username: string;
-  private clientid = 'f8b2761f67f82e2acbce';
-  private clientsecret = '8150f0085b5c4006a53bb8d1e42e889930cb60b2';
+  private clientid = 'f28255c9de8c7cc3013be';
+  private clientsecret = '44163b592a356d2b315174800b0b5f73e028aa43';
 
 
   constructor(private http: HttpClient) {
