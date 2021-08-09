@@ -38,4 +38,19 @@ export class ProfileComponent implements OnInit {
   
   }
   
+  findProfile() {
+    this.ProfileService.updateProfile(this.username);
+    this.ProfileService.getProfileInfo().subscribe((profile:any) => {
+      console.log(profile);
+      this.profile = profile;
+    });
+    this.ProfileService.getProfileRepos().subscribe((repos:any) => {
+      console.log(repos);
+      this.repos = repos;
+    });
+  }
 
+  ngOnInit(): void {
+  }
+
+}
